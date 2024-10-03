@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://blue.butler.edu/~nreilly/Final/order.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Ordering page</title>
+    <link href="./sweetOrdering page_files/sweetStyles.css" rel="stylesheet" type="text/css">
+    <style>
+        main {
+            width: 100%;
+            margin-top: 60px;
+            margin-bottom: 0;
+           
+        }
+        fieldset{
+            
+            padding-left: 5px;
+            margin-left: 2px;
+            line-height: 30px;
+            border: 3px solid lightblue;
+            border-radius: 15px;
+            margin: 0px auto ;
+            font-family: Proxima Nova, Helvetica, Arial, sans-serif;
+            font-size: 12pt;
+    
+        }
+
+        body{
+        background-image: url(images/iceCreamdfrawing.jpg);
+background-repeat: no-repeat;
+background-attachment:scroll;
+background-position: 500px 273px;
+
+
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="https://blue.butler.edu/~nreilly/Final/iceIndex.html"><img src="./sweetOrdering page_files/My project-1.png" alt="WDD219 Ice Cream Logo" height="80" width="150"></a>
+       
+        <nav>
+            <ul>
+                <li><a href="https://blue.butler.edu/~nreilly/Final/iceIndex.html">Home Page</a></li>
+                <li><a href="https://blue.butler.edu/~nreilly/Final/company.html">About</a></li>
+                <li><a href="https://blue.butler.edu/~nreilly/Final/stores.html">Locations</a></li>
+                <li><a href="https://blue.butler.edu/~nreilly/Final/order.html">Order Now</a></li>
+                <li><a href="https://blue.butler.edu/~nreilly/Final/feedback.html">Customer Feedback</a></li>
+                <li><a href="https://blue.butler.edu/~nreilly/Final/employment.html">Employment</a></li>
+
+            </ul>
+        </nav>
+    </header>
+<main>
+<div id="titleBox">
+
+    <h1>Order</h1>
+</div>
+
+<div id="indexBox">
+<div id="customOption">
+<h2>Scoops</h2>
+<ul>
+    <li>1 Scoop  $3.52</li>
+    <li>2 Scoops  $5.56</li>
+
+</ul>
+
+<h2>Toppings $.25 each</h2>
+<ul>
+    <li>Whipped cream (Free)</li>
+    <li>Maraschino cherry (Free)</li>
+    <li>Chocolate syrup</li>
+    <li>Carmel syrup</li>
+    <li>Oreo pieces</li>
+    <li>Brownie bites</li>
+    <li>Rainbow sprinkles</li>
+    <li>M &amp; Ms</li>
+    <li>Chocolate chips</li>
+    <li>Peanut butter cup</li>
+    <li>Peanuts</li>
+    <li>Cookie dough</li>
+    <li>Fruit</li>
+    <li>Gummy bears</li>
+
+
+</ul>
+
+
+
+
+</div>
+
+<div id="nonOptions">
+<h2>Creations</h2>
+<ul>
+<li>Dream Special $8.53<br>
+    One scoop of chocolate between two scoops of vanilla ice cream, hot fudge and peanut
+    butter toppings, real whipped cream, nuts
+    and a cherry over sliced banana.</li>
+<li>Happy Chance $8.53<br>
+    Three scoops of ice cream, chocolate chips, hot
+    fudge, crushed Oreos, real whipped cream and
+    a cherry.</li>
+<li>Lucky Break Sunday $6.88<br>
+    Two scoops of ice cream covered with your choice of two toppings, real whipped cream, nuts and a
+    cherry.</li>
+<li>The Sweet Split $8.53<br>
+    Vanilla, chocolate and strawberry ice cream, chocolate syrup, marshmallow and pineapple
+    toppings, real whipped cream, nuts and a cherry all atop a banana.</li>
+
+
+</ul>
+
+<h2>On the Go</h2>
+<ul>
+    <li>Half Gallon Ice Cream $18.43</li>
+    <li>Quart of Ice Cream $11.11</li>
+</ul>
+
+<h2>Shakes and Malts</h2>
+<ul>
+    <li>Malt $5.94<br>
+        Creamy malts are made-to-order with any flavor of ice cream and flavor of syrup
+        </li>
+    <li>Shake $5.78<br>
+        Thick delicious shakes made-to-order with any flavor of ice cream and one flavor of syrup</li>
+</ul>
+
+
+</div>
+</div>
+
+<div id="whole">
+<form action="https://blue.butler.edu/~nreilly/Final/order.html" method="POST">
+   
+ <fieldset>
+     <legend>Ice Cream Info</legend>
+ 
+ 
+     <p>Number of Scoops</p>
+     <select name="scoops">
+         <option value="oneScoop">One Scoop</option>
+         <option value="twoScoop">Two Scoop</option>
+         
+     
+     
+     </select>
+     
+     <p>Which toppings would you like on your Ice Cream?</p>
+     <div class="ingredients">
+    <input type="checkbox" name="toppings" value="wcream" id="wcream"><label for="wcream"> Whip Cream</label><br>
+    <input type="checkbox" name="toppings" value="mcherry" id="mcherry"><label for="mcherry"> Maraschino cherry </label><br>
+    <input type="checkbox" name="toppings" value="csyrup" id="csyrup"><label for="csyrup"> Chocolate syrup</label><br>
+    <input type="checkbox" name="toppings" value="casyrup" id="casyrup"><label for="casyrup"> Carmel syrup</label><br>
+    <input type="checkbox" name="toppings" value="op" id="op"><label for="op"> Oreo pieces</label><br>
+    <input type="checkbox" name="toppings" value="bb" id="bb"><label for="bb"> Brownie bites</label><br>
+    <input type="checkbox" name="toppings" value="rs" id="rs"><label for="rs"> Rainbow sprinkles</label><br>
+    <input type="checkbox" name="toppings" value="mm" id="mm"><label for="mm"> M &amp; Ms</label><br>
+    <input type="checkbox" name="toppings" value="cc" id="cc"><label for="cc"> Chocolate chips</label><br>
+    <input type="checkbox" name="toppings" value="pbc" id="pbc"><label for="pbc"> Peanut butter cup</label><br>
+    <input type="checkbox" name="toppings" value="pn" id="pn"><label for="pn"> Peanuts</label><br>
+    <input type="checkbox" name="toppings" value="cd" id="cd"><label for="cd"> Cookie dough</label><br>
+    <input type="checkbox" name="toppings" value="fr" id="fr"><label for="fr"> Fruit</label><br>
+    <input type="checkbox" name="toppings" value="gb" id="gb"><label for="gb"> Gummy bears</label><br>
+    <br>
+
+</div>
+
+ <div class="special">
+    <p>Which special would you like?(can only choose one)</p> 
+
+    <img src="./sweetOrdering page_files/dreamspecial.jpg" alt="WDD219 Ice Cream Logo" height="80" width="150">
+
+    <input type="radio" name="spec" value="dS" id="dS"><label for="dS"> Dream Special $8.53</label>
+    <br>
+    <img src="./sweetOrdering page_files/oreo.jpg" alt="WDD219 Ice Cream Logo" height="80" width="150">
+    <input type="radio" name="spec" value="hC" id="hC"><label for="hC"> Happy Chance $8.53</label>
+    <br>
+    <img src="./sweetOrdering page_files/luckybreak.jpg" alt="WDD219 Ice Cream Logo" height="80" width="150">
+    <input type="radio" name="spec" value="lB" id="lB"><label for="lB">Lucky Break Sunday $6.88</label>
+    <br>
+    <img src="./sweetOrdering page_files/thesweetsplit.jpg" alt="WDD219 Ice Cream Logo" height="80" width="150">
+    <input type="radio" name="spec" value="sS" id="sS"><label for="sS">The Sweet Split $8.53</label>
+    <br>
+
+    <p>Choose one or both:</p>
+  <input type="checkbox" id="malt" name="malt" value="malt">
+  <label for="malt"> Malt</label><br>
+  <input type="checkbox" id="shake" name="shake" value="shake">
+  <label for="shake"> Shake</label><br>
+  <label>Choose your ice cream flavors:</label><br>
+  <select name="flavors" multiple="">
+    <option value="Vanilla">Vanilla</option>
+    <option value="Chocolate">Chocolate</option>
+    <option value="Strawberry">Strawberry</option>
+    <option value="Mint chocolate chip">Mint</option>
+    <option value="Oreo">Mint</option>
+    <option value="Cookie Dough">Mint</option>
+  </select><br><br>
+
+</div>
+
+ </fieldset></form></div>
+ <div class="ingredients">     
+
+     
+ </div>
+     
+    
+ 
+ 
+ <div id="payment">
+ <fieldset>
+     <legend>Payment Information</legend>
+     
+     <p>How would you like to pay for your Ice Cream?</p> <input type="radio" name="payment" value="cash" id="cash"><label for="cash">Cash</label>
+     <input type="radio" name="payment" value="check" id="check"><label for="check">Check</label>
+     <input type="radio" name="payment" value="ccard" id="ccard"><label for="ccard">Credit Card</label>
+     <input type="password" name="ccardNumber">
+     
+     <p>Please enter your email and we will let you when your order is ready!</p>
+     <input type="text" name="email" id="email">
+    
+    
+     
+     
+     <input type="submit" value="Order Ice Cream" id="otherBtn">
+     <br>
+ </fieldset>
+ </div>
+ 
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+</body></html>
